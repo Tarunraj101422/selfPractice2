@@ -89,5 +89,9 @@ public class JanInfosys {
 			characterSet.add(c);
 		}
 	} System.out.println(characterSet);
+
+
+	List<Integer> li10 = li3.stream().filter(n->n%2==0).collect(Collectors.toList());
+	li10.forEach(System.out::println);
 	} 
 	}
